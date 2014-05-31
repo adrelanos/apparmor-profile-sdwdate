@@ -15,7 +15,7 @@ Standards-Version: 3.9.4
 Package: apparmor-profile-sdwdate
 Architecture: all
 Depends: ${misc:Depends}, apparmor
-Description: AppArmor profile for sdwdate.
+Description: AppArmor profile for sdwdate
  An AppArmor profile to confine sdwdate. This profile is
  developed by the Whonix team. sdwdate is developed by
  Patrick Schleizer <adrelanos@riseup.net>.

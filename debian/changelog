@@ -1,4 +1,4 @@
-apparmor-profile-sdwdate (0.1-1) UNRELEASED; urgency=low
+apparmor-profile-sdwdate (3:0.1-1) UNRELEASED; urgency=low
 
   * Initial release.
 

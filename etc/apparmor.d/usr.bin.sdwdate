@@ -104,11 +104,11 @@
 	/run/sdwdate/done rwcx,
 
 	## TODO: Remove /run/... and add ~/.timesync/*
-	/run/whonix/whonixcheck/timesync_pid rix,
-	/run/whonix/whonixcheck/timesync_done rwix,
-	/run/whonix/whonixcheck/timesync_running rwcix,
-	/run/whonix/whonixcheck/* mrwcx,
-	/run/whonix/whonixcheck/timesync_pid r,
+	/run/timesync/timesync_pid rix,
+	/run/timesync/timesync_done rwix,
+	/run/timesync/timesync_running rwcix,
+	/run/timesync/* mrwcx,
+	/run/timesync/timesync_pid r,
 
 	/run/utmp rk,
 	/run/msgcollector r,

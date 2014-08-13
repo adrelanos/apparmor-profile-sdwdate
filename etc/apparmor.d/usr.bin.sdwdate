@@ -130,6 +130,7 @@
 	/usr/lib/msgcollector/msgcollector rix,
 	/usr/lib/msgcollector/msgprogress rix,
 	/usr/lib/sclockadj rix,
+	/usr/lib/sclockadj_kill_helper rix,
 
 	/usr/lib/anon-shared-helper-scripts/apt-get-update-simulate/te_pe_tb_check rix,
 

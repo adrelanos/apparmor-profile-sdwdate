@@ -141,6 +141,8 @@
 	/usr/lib/python*/** mr,
 	/usr/lib/python*/lib-dynload/datetime.so mr,
 
+	/usr/lib/ruby/** mr,
+
 	deny /usr/local/lib/** r,
 
 	/usr/bin/sdwdate rix,

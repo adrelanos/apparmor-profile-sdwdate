@@ -197,4 +197,7 @@
 	/var/log/timesanitycheck.log rwk,
 
 	/var/log/sdwdate.log rwcux,
+
+	/root/.ruby_inline/ r,
+	/root/.ruby_inline/** mr,
 }

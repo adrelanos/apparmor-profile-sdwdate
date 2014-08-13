@@ -170,6 +170,7 @@
 	/usr/bin/dpkg-query rix,
 	/usr/bin/gawk rix,
 	/usr/bin/awk rix,
+	/usr/bin/ruby* rix,
 
 	/usr/sbin/service rix,
 

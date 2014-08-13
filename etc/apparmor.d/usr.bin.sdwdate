@@ -129,6 +129,7 @@
 	/usr/lib/timesync/timesync_post_failure rix,
 	/usr/lib/msgcollector/msgcollector rix,
 	/usr/lib/msgcollector/msgprogress rix,
+	/usr/lib/sclockadj rix,
 
 	/usr/lib/anon-shared-helper-scripts/apt-get-update-simulate/te_pe_tb_check rix,
 

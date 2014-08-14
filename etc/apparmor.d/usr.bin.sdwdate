@@ -89,6 +89,8 @@
 	/etc/apt/preferences.d/* r,
 	/etc/security/capability.conf r,
 
+	/home/sdwdate/.msgcollector/msgdispatcher-error.log rwk,
+
 	/lib/i386-linux-gnu/** mr,
 	/lib//security/* mr,
 
@@ -98,6 +100,7 @@
 	@{PROC}/[0-9]*/stat r,
 	@{PROC}/[0-9]*/status r,
 	@{PROC}/[0-9]*/fd/ r,
+	@{PROC}/[0-9]*/task/ r,
 	@{PROC}/sys/kernel/pid_max r,
 	@{PROC}/uptime r,
 	@{PROC}/tty/drivers r,
@@ -113,8 +116,8 @@
 
 	/run/utmp rk,
 	/run/msgcollector r,
-	/run/msgcollector/ r,
-	/run/msgcollector/* rw,
+	/run/msgcollector/*/ r,
+	/run/msgcollector/*/* rwk,
 	/run/sdwdate r,
 	/run/sdwdate/ rw,
 	/run/sdwdate/* rw,
@@ -132,18 +135,12 @@
 	/usr/lib/msgcollector/msgprogress rix,
 	/usr/lib/sclockadj rix,
 	/usr/lib/sclockadj_kill_helper rix,
-
-	/usr/lib/anon-shared-helper-scripts/apt-get-update-simulate/te_pe_tb_check rix,
-
 	/usr/lib/curl-scripts/curl_exit_codes rix,
 
-	/usr/lib/anon-shared-helper-scripts/apt-get-update-simulate rix,
-	/usr/lib/uwtwrapper rix,
-	/usr/lib/anon-shared-helper-scripts/tor_bootstrap_check.py rix,
 	/usr/lib/python*/** mr,
 	/usr/lib/python*/lib-dynload/datetime.so mr,
-
 	/usr/lib/ruby/** mr,
+	/usr/lib/msgcollector/striphtml rix,
 
 	deny /usr/local/lib/** r,
 
@@ -175,10 +172,15 @@
 	/usr/bin/gawk rix,
 	/usr/bin/awk rix,
 	/usr/bin/ruby* rix,
+	/usr/bin/pstree rix,
+	/usr/bin/bc rix,
+	/usr/bin/printf rix,
+	/usr/bin/sort rix,
+	/usr/bin/shuf rix,
+	/usr/bin/mkfifo rix,
 
 	/usr/sbin/service rix,
 
-	/var/lib/anon-dist/build_version r,
 	/usr/share/ca-certificates/** r,
 	/usr/share/misc/pci.ids r,
 	/usr/share/pyshared/** r,

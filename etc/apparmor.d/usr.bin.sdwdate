@@ -104,6 +104,7 @@
 	@{PROC}/sys/kernel/pid_max r,
 	@{PROC}/uptime r,
 	@{PROC}/tty/drivers r,
+	@{PROC}/sys/kernel/random/uuid r,
 
 	/run/sdwdate/done rwcx,
 

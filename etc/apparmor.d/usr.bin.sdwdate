@@ -56,8 +56,8 @@
 	deny /etc/fstab r,
 
 	## required for sdwdate-plugin-anon-shared-con-check
-	/usr/share/tor/tor-service-defaults-torrc,
-	/etc/tor/torrc,
+	/usr/share/tor/tor-service-defaults-torrc r,
+	/etc/tor/torrc r,
 
 	/etc/pam.d/* r,
 	/etc/pam.d/other r,

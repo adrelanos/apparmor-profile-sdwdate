@@ -140,6 +140,7 @@
 	/usr/lib/timesync/timesync_post_error rix,
 	/usr/lib/timesync/timesync_post_success rix,
 	/usr/lib/timesync/timesync_post_failure rix,
+	/usr/lib/timesync/timesync_progress rix,
 	/usr/lib/msgcollector/msgcollector rix,
 	/usr/lib/msgcollector/msgprogress rix,
 	/usr/lib/sclockadj rix,

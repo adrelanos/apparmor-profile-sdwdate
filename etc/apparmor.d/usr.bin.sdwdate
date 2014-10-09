@@ -192,6 +192,8 @@
 	/usr/bin/shuf rix,
 	/usr/bin/mkfifo rix,
 
+	/usr/bin/tlsdate Px,
+
 	/usr/sbin/service rix,
 
 	/usr/share/ca-certificates/** r,
@@ -216,7 +218,7 @@
 	/var/log/sdwdate.log rwcux,
 
 	## required for sdwdate-plugin-anon-shared-con-check
-	/run/tor/control.authcookie
+	/run/tor/control.authcookie r,
 
 	/root/.ruby_inline/ rw,
 	/root/.ruby_inline/** mrw,

@@ -193,6 +193,7 @@
 	/usr/bin/sort rix,
 	/usr/bin/shuf rix,
 	/usr/bin/mkfifo rix,
+	/usr/bin/id rix,
 
 	/usr/bin/tlsdate Px,
 

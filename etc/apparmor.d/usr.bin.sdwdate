@@ -97,6 +97,7 @@
 	/etc/apt/preferences.d/* r,
 	/etc/security/capability.conf r,
 
+  /home/sdwdate/.msgcollector/ r,
 	/home/sdwdate/.msgcollector/msgdispatcher-error.log rwk,
 
 	/lib/i386-linux-gnu/** mr,
@@ -124,7 +125,7 @@
 	/run/timesync/timesync_pid r,
 
 	/run/utmp rk,
-	/run/msgcollector r,
+	/run/msgcollector/*/ r,
 	/run/msgcollector/*/ r,
 	/run/msgcollector/*/* rwk,
 	/run/sdwdate r,

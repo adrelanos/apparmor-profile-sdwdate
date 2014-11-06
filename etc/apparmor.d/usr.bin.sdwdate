@@ -97,7 +97,7 @@
 	/etc/apt/preferences.d/* r,
 	/etc/security/capability.conf r,
 
-  /home/sdwdate/.msgcollector/ rwk,
+	/home/sdwdate/.msgcollector/ rwk,
 	/home/sdwdate/.msgcollector/* rwk,
 
 	/lib/i386-linux-gnu/** mr,

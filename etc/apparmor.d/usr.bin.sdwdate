@@ -97,8 +97,8 @@
     /etc/apt/preferences.d/* r,
     /etc/security/capability.conf r,
 
-    /home/sdwdate/.msgcollector/ rwk,
-    /home/sdwdate/.msgcollector/* rwk,
+    /home/sdwdate/.msgcollector rwk,
+    /home/sdwdate/.msgcollector/** rwk,
 
     /lib/i386-linux-gnu/** mr,
     /lib//security/* mr,
@@ -125,9 +125,8 @@
     /run/timesync/timesync_pid r,
 
     /run/utmp rk,
-    /run/msgcollector/*/ r,
-    /run/msgcollector/*/ r,
-    /run/msgcollector/*/* rwk,
+    /run/msgcollector rwk,
+    /run/msgcollector/** rwk,
     /run/sdwdate r,
     /run/sdwdate/ rw,
     /run/sdwdate/* rw,

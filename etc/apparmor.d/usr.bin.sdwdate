@@ -153,6 +153,8 @@
     /usr/lib/sdwdate/sclockadj_kill_helper rix,
 
     /usr/lib/sdwdate/date_to_unixtime rix,
+    /usr/lib/sdwdate/modules.d/ r,
+    /usr/lib/sdwdate/modules.d/** r,
     /usr/lib/curl-scripts/curl_exit_codes rix,
     /usr/lib/python*/** mr,
     /usr/lib/python*/lib-dynload/datetime.so mr,

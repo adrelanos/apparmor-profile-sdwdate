@@ -223,7 +223,7 @@
     /var/lib/dpkg/status r,
     /var/lib/apt/lists/ r,
     /var/lib/apt/extended_states r,
-    /var/lib/dpkg/** rwk,
+    /var/lib/dpkg/** r,
     /var/lib/apt/lists/* r,
 
     /var/log/bootclockrandomization.log rwk,

@@ -205,6 +205,7 @@
     /usr/bin/id rix,
     /usr/bin/basename rix,
     /usr/bin/tput rix,
+    /usr/bin/whoami rix,
 
     /usr/bin/tlsdate Px,
 

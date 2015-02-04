@@ -151,6 +151,7 @@
     # Whonix 10
     /usr/lib/sdwdate/sclockadj rix,
     /usr/lib/sdwdate/sclockadj_kill_helper rix,
+    /usr/lib/sdwdate/sclockadj_debug_helper rix,
 
     /usr/lib/sdwdate/date_to_unixtime rix,
     /usr/lib/sdwdate/modules.d/ r,
@@ -206,6 +207,7 @@
     /usr/bin/basename rix,
     /usr/bin/tput rix,
     /usr/bin/whoami rix,
+    /usr/bin/find rix,
 
     /usr/bin/tlsdate Px,
 
@@ -218,6 +220,8 @@
     /var/cache/apt/pkgcache.bin rwk,
     /var/cache/apt/pkgcache.bin* rwk,
     /var/cache/apt/srcpkgcache.bin rwk,
+    /var/cache/sdwdate mrw,
+    /var/cache/sdwdate/** mrw,
 
     /var/lib/dpkg/lock rwcxk,
     /var/lib/dpkg/updates/ r,
@@ -234,7 +238,4 @@
 
     ## required for sdwdate-plugin-anon-shared-con-check
     /run/tor/control.authcookie r,
-
-    /root/.ruby_inline/ rw,
-    /root/.ruby_inline/** mrw,
 }

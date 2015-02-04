@@ -1,0 +1,436 @@
+commit b5bb6e3e818bc81c1ff7e8e2e671b7897ef1f7c9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:32 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit e694e235887f3ab80b7a7d477be081a092718198
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:37 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit dbf2394144216d019f9b2e1caa593e50f1a15b87
+Merge: abdac72 210650f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 26 21:33:50 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 210650f9de7af74a8e0bbe26058bd3676034123c
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Jan 26 20:51:48 2015 +0000
+
+    + /usr/bin/whoami
+
+commit abdac72d7b7339b619e1679a8a4dadea5db436af
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:33:36 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit 12451a5bba5362e27502686982088fdae4eb427d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:10 2014 +0000
+
+    updated generic makefile
+
+commit 933a056f515c721850d8eb6190d4ce66d3939b03
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Nov 24 01:12:11 2014 +0000
+
+    fix
+
+commit 4e29e0c927a5bb668df60118095ff7200fb135bc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Nov 15 03:07:29 2014 +0000
+
+    added:
+        /usr/lib/sdwdate/modules.d/ r,
+        /usr/lib/sdwdate/modules.d/** r,
+
+commit d932cd49f82316fd320f99544adeb1a604f7571a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Nov 12 21:12:43 2014 +0000
+
+    bumped version number
+
+commit 9b0e729ac767f13548184f36b88759742729a464
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Nov 12 16:44:07 2014 +0000
+
+    /run/msgcollector/
+
+commit a53e35e4e4a8f9876a4579c5756f5de39415b832
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Nov 12 12:49:19 2014 +0000
+
+    msgcollector fix
+
+commit 5f61ad89c6ac10e64992884e207fcb546b6754f9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Nov 9 15:44:28 2014 +0000
+
+    bumped version number
+
+commit 60fb5f7a919202af06403db36960e1c702032d6d
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Nov 9 14:32:28 2014 +0000
+
+    /usr/lib/sdwdate/sclockadj AND /usr/lib/sclockadj
+    four spaces indentation.
+
+commit 40065c78f7ee3126880e4a05c96e2f9b74c41d11
+Merge: 39be513 0d88c54
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Nov 9 13:54:57 2014 +0000
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 39be5133a6e27795308990922f2328c77eca9801
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Nov 9 13:24:59 2014 +0000
+
+    +	/usr/bin/basename rix,
+    +	/usr/bin/tput rix,
+
+commit 0d88c540f2aa0b3c2262ebde0c058ba08d6e2d53
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Nov 6 15:17:41 2014 +0000
+
+    bumped version number
+
+commit 61257d523d187b3be59d791a8594ae24f4a0691e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Nov 6 15:17:27 2014 +0000
+
+    fixed intent
+
+commit bb057cb3127a8a8e9a39971640fe8025f1d616c8
+Merge: c4ec9a6 d194fcf
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Nov 6 15:16:14 2014 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit d194fcfdf7419cca3bc33a9fe4e7b1b34de76240
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Nov 6 14:47:01 2014 +0000
+
+    "k" mask
+
+commit c4ec9a6c6c576d2bc5761f76af15b4ad54f0d5d5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Nov 5 21:33:29 2014 +0000
+
+    bumped version number
+
+commit bda2f47862ea650cde9cbc70b1ad9b4ba973303f
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Nov 5 21:07:52 2014 +0000
+
+    missing "/", + /home/sdwdate/.msgcollector/ r,
+
+commit 0f5eb6be679e9a7d1fc0cc5e48c2dd11634b6f1c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Nov 2 06:21:12 2014 +0000
+
+    added /usr/bin/id rix,
+
+commit 66bb04eda28006a9781898fe8114ce12830da805
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:18 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit 7825f884d3bc3a869beaac350c7764ea57396372
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:50 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit 023e7933c027ef60e574ccd5cdcc1ac0fbbb34e6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:01 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit 67d94de38d9d4b3b678a2554220f87f32cee64b7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Oct 22 23:22:48 2014 +0000
+
+    update paths; refactoring
+
+commit a1a795591bde11fc0f7e9fbc05e664c5dbef6ef8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Oct 22 21:39:14 2014 +0000
+
+    bumped version number
+
+commit 4c7fa422afa0af08b276dfe0dc594044285a615e
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Oct 22 19:23:05 2014 +0000
+
+    + /usr/lib/sdwdate/date_to_unixtime
+
+commit 57e41aa81bafce02b2104792b4bbcafc3b522ac6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:36:51 2014 +0000
+
+    readme
+
+commit d0bd470722b8e2d93c0a2eeba4dea130cac5d893
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 9 22:29:05 2014 +0000
+
+    added /usr/lib/timesync/timesync_progress rix,
+
+commit 4aa540ed1eeaae6c6e426374316ff1b75bb3df45
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Oct 9 21:26:55 2014 +0000
+
+    includes tlsdate
+
+commit 287a4cfd88253e0353499c779daa26d380a2dfb8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 05:51:55 2014 +0000
+
+    fixes
+
+commit b88868fd43ef7fcf8be00359e90a911af2c23165
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 05:34:36 2014 +0000
+
+    bumped version number
+
+commit 3810fbafad2bae092fdb2abc0eac86e9637a4ca0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 05:30:26 2014 +0000
+
+    fix
+
+commit 719b933e717b0584ad7c8dd5b820ec761a50d9c0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 03:00:19 2014 +0000
+
+    bumped version number
+
+commit 0f40a6f4ec8ba61a420d8326d53c722a0feca29c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 02:59:49 2014 +0000
+
+    added "/usr/share/tor/tor-service-defaults-torrc,", "/etc/tor/torrc,", required for sdwdate-plugin-anon-shared-con-check)
+
+commit 58f5f3de96c4666b6e434a68b2eb8e5b414bea9f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 28 02:02:59 2014 +0000
+
+    additions for sclockadj (test case: sudo rm -r /root/.ruby_inline)
+
+commit 3dc149c11d8a678392e72dea98b828ea8d106486
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 26 01:28:17 2014 +0000
+
+    added @{PROC}/sys/kernel/random/uuid r,
+
+commit 994321d964bf751c0d93a9a7705d9b5f5bb7d486
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 19 18:52:36 2014 +0000
+
+    makefile: added new feature "make deb-chl-bumpup" - Bump upstream version number in debian/changelog.
+
+commit f761c6689390029bd9e91e3f83f777f95288f89f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:54:22 2014 +0000
+
+    Updated debian/changelog.
+
+commit 3d792daabd9e9954c7cd2e8fcada467c13f1cdbf
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:47:25 2014 +0000
+
+    Fixed changelog date.
+
+commit 517fdf79c791e6ceab0dc308a0964a8e7ba93963
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 18:03:24 2014 +0000
+
+    bump version number
+
+commit 02c9dcf5418d99d578f36a005a20d3fd5b94efb3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 14 13:35:14 2014 +0000
+
+    Implemented make deb-icup: Combination of make deb-pkg, make deb-pkg-install and make deb-pkg-cleanup.
+
+commit 9102f5eaae5f330551d935ce2b545094b97fc31a
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Aug 14 08:48:53 2014 +0000
+
+    updates after changes for Whonix 9
+
+commit 3507c25a2a98fa57956d2ff8a4bad7d303d3f7a2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 13 23:34:41 2014 +0000
+
+    added @{PROC}/*/cmdline r,
+
+commit 7eac698c4dc655a0f873a3a1bd427fe17ff941f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 13 23:15:22 2014 +0000
+
+    added /usr/lib/sclockadj_kill_helper rix,
+
+commit a4f9e54ca786e9bbd2a634dfcb0b1d858ed7b976
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 13 23:09:53 2014 +0000
+
+    added
+    /root/.ruby_inline/ r,
+    /root/.ruby_inline/** mr,
+
+commit be49211c694ad5866a15cf13d257f329c8331e1a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 13 23:01:54 2014 +0000
+
+    added /usr/lib/ruby/** mr,
+
+commit 7924ddf2ac073d2e92f641c449a2633cb19e15ae
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 13 22:50:13 2014 +0000
+
+    added 	/usr/bin/ruby* rix, (for sclockadj)
+
+commit 8d2bfb8100c31215553ac9f6b278d8ebdebbab4e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 13 21:36:51 2014 +0000
+
+    added /usr/lib/sclockadj rix,
+
+commit fa939b7ad302dd72204523ef785adb87da44b388
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 12:42:25 2014 +0000
+
+    packaging
+
+commit f33f6c78ff94e605a9bc9bdaf92ce15ec932654f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 04:01:09 2014 +0000
+
+    packaging
+
+commit 2d0de32d495ffb4357fa7b3ae45c4b7204258129
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:26:34 2014 +0000
+
+    packaging
+
+commit 61c7648bc1557de39a53cb25581751aef4c1a575
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:16:02 2014 +0000
+
+    packaging: removed build dependency on git, since the .git folder won't be included in the upstream tarball.
+
+commit 72b1b2c099df067f97aec9e2566060089193aa44
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:29:42 2014 +0000
+
+    packaging
+
+commit af36cffcd6e35616edfcbb291f0e4499ed273378
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:10:59 2014 +0000
+
+    packaging
+
+commit 652a30419b2788a7467f17e28db9a5f786a38036
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 15:34:15 2014 +0000
+
+    packaging
+
+commit 71c2ae9d70b7825cfd9216de55f8001727398df2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 11 18:02:39 2014 +0000
+
+    update for Whonix 9
+
+commit dd133967e4c3c3ebaff78148b8d691a19108df66
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 5 08:09:42 2014 +0000
+
+    Bumped debian revision number to avoid lintian warning "new-package-should-close-itp-bug" so we can use lintian --fail-on-warnings as sanity test.
+
+commit 32cd647eaf1f5c773f5305f39b492f455496fbb7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 24 15:45:10 2014 +0000
+
+    added debian epoch; added dotglob
+
+commit 988cf6386ab32ccca05da18c956f3c40e58895d8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 12 12:28:53 2014 +0000
+
+    packaging
+
+commit b45dc006cf594e2d4736fadb8a540be0836ee3a4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 23:33:52 2014 +0000
+
+    newline at the end
+
+commit fea16ca1b3a7eef749b9294ad2299d477a1b04a6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 18:27:24 2014 +0000
+
+    readme
+
+commit 222ffae1042879403fbd6a08a50b68e5feb10b8b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 1 15:38:30 2014 +0000
+
+    readme
+
+commit 709ac5c8847b4d1fd1020d4f798102908bc760a9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 16:31:06 2014 +0000
+
+    # On branch master
+    nothing to commit (working directory clean)
+
+commit 3570d33d8a39b298dcacc95480a30c8383f7f296
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 14:19:40 2014 +0000
+
+    packaging
+
+commit ff689f23b9c854e7a1c5f90e53121c1fcdec2bcf
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 14:19:22 2014 +0000
+
+    updated paths for Whonix 9
+
+commit b1c191d578bb6699bdd13b3f1b2734429a5c962d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 22 23:26:37 2014 +0000
+
+    packaging
+
+commit 5903de48e4ae2ee79a37eb70c9f392037dc62579
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 22 23:13:21 2014 +0000
+
+    cleanup
+
+commit 67959a0c71c10a0e1502a563f0840db472d3a6a1
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu May 22 20:05:44 2014 +0000
+
+    First release

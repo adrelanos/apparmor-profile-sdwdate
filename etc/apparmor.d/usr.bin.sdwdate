@@ -209,8 +209,6 @@
     /usr/bin/whoami rix,
     /usr/bin/find rix,
 
-    /usr/bin/tlsdate Px,
-
     /usr/sbin/service rix,
 
     /usr/share/ca-certificates/** r,
@@ -220,7 +218,7 @@
     /var/cache/apt/pkgcache.bin rwk,
     /var/cache/apt/pkgcache.bin* rwk,
     /var/cache/apt/srcpkgcache.bin rwk,
-    /var/cache/sdwdate mrw,
+    /var/cache/sdwdate/ r,
     /var/cache/sdwdate/** mrw,
 
     /var/lib/dpkg/lock rwcxk,
@@ -234,7 +232,7 @@
     /var/log/bootclockrandomization.log rwk,
     /var/log/timesanitycheck.log rwk,
 
-    /var/log/sdwdate.log rwcux,
+    /var/log/sdwdate.log rwk,
 
     ## required for sdwdate-plugin-anon-shared-con-check
     /run/tor/control.authcookie r,

@@ -42,7 +42,6 @@
     /usr/bin/gcc-* rix,
     /usr/bin/as rix,
     /usr/bin/ld.bfd rix,
-    /usr/bin/timeout rix,
 
     /dev/tty rw,
 

@@ -1,3 +1,77 @@
+commit a6cdb35b621df6b7924df8e9f779faab9a562ec3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:26:26 2015 +0000
+
+    updated makefile generic to version 1.4
+
+commit 8630e7d4175db476209eec0cbd1e051b9461cec9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 22 18:17:13 2015 +0000
+
+    /usr/lib/sdwdate/date_to_unixtime rix, -> /usr/lib/sdwdate/url_to_unixtime rix,
+
+commit 6bfb0e30d0c0c8a988d1c715182ee246dd89a718
+Merge: 260f8ac 554ca2a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 22 18:14:05 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 554ca2ac44de4ef99c9e138d142ac9d9ecd5d00e
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Feb 21 20:25:04 2015 +0000
+
+    + /etc/apparmor.d/abstractions/sdwdate
+
+commit d250649e840153b0b3ad64fa2d78ea4a0f28df20
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Feb 21 20:21:44 2015 +0000
+
+    - #include <abstractions/whoni>  + #include <abstractions/sdwdate>
+
+commit 307b9a05e73bb44d3d1a842e7b3943380393b468
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Feb 18 04:54:14 2015 +0000
+
+    + #include <abstractions/whonix>
+
+commit 260f8accb1c1ce525f8a32c27356b43dab04526c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 6 22:31:00 2015 +0000
+
+    fixed duplicate
+
+commit a931d861b0b6038c43217617497be4dea8f25e05
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 6 19:47:47 2015 +0000
+
+    update for latest sdwdate
+
+commit 1bad8c71d063193a2f84bf00b3afd5d6cebb1dc1
+Merge: edc577e 3f1bf19
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 5 18:32:57 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 3f1bf1912f33c60a339629fcb9f31c8f30b89bd7
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Feb 5 16:29:14 2015 +0000
+
+    fix
+
+commit edc577eb0783746265bba38b963b227464b4b7dc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 15:30:58 2015 +0000
+
+    update for latest sdwdate version
+
+commit 7ec0045476e1645da3f0a339b72b6e60fafc9bfa
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:56:10 2015 +0000
+
+    bumped changelog version
+
 commit 18e6a87249b056e3e4667bf688eddfcc76b26cf0
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 4 00:44:45 2015 +0000

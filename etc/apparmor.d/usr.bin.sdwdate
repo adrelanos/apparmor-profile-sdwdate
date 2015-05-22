@@ -6,11 +6,16 @@
     #include <abstractions/bash>
     #include <abstractions/sdwdate>
 
+    capability audit_write,
+    capability net_admin,
+
     @{HOME}/sdwdatetest rwk,
 
     /bin/touch rix,
     /bin/run-parts rix,
     /bin/date rix,
+    /bin/systemctl rix,
+    /bin/bash rix,
 
     /etc/nsswitch.conf r,
     /etc/pam.d/other r,
@@ -20,20 +25,35 @@
     /etc/apt/sources.list.d/* r,
     /etc/uwt.d/ r,
     /etc/uwt.d/* r,
+    /etc/login.defs r,
+    /etc/machine-id r,
 
     /home/sdwdate/.msgcollector rwk,
     /home/sdwdate/.msgcollector/** rwk,
 
     /lib//security/* mr,
 
+    @{PROC}/sys/kernel/random/boot_id r,
+
     /run/sdwdate/done rwcx,
+    /run/log/journal/ rw,
+    /run/log/journal/*/ rw,
+    /run/log/journal/*/system.journal rw,
 
     ## TODO: Remove /run/... and add ~/.timesync/*
     /run/timesync/timesync_pid rix,
     /run/timesync/timesync_done rwix,
     /run/timesync/timesync_running rwcix,
+    /run/log/journal/ rw,
+
+    /sys/fs/cgroup/systemd/system.slice/bootclockrandomization.service/ r,
+    /sys/fs/cgroup/systemd/system.slice/bootclockrandomization.service/* r,
+    /sys/fs/cgroup/systemd/system.slice/timesanitycheck.service/ r,
+    /sys/fs/cgroup/systemd/system.slice/timesanitycheck.service/* r,
 
     /tmp/** lrwcix,
+
+    /usr/bin/sudo rix,
 
     /usr/lib/timesync/timesync_pre rix,
     /usr/lib/timesync/timesync_post_error rix,
@@ -42,6 +62,7 @@
     /usr/lib/timesync/timesync_progress rix,
     /usr/lib/msgcollector/msgcollector rix,
     /usr/lib/msgcollector/msgprogress rix,
+    /usr/lib/i386-linux-gnu/ruby/2.1.0/** mr,
 
     # Whonix 10
     /usr/lib/sdwdate/sclockadj_debug_helper rix,
@@ -55,6 +76,8 @@
     deny /usr/local/lib/** r,
 
     /usr/bin/find rix,
+
+    /usr/share/rubygems-integration/all/specifications/ r,
 
     /var/cache/apt/pkgcache.bin rwk,
     /var/cache/apt/pkgcache.bin* rwk,

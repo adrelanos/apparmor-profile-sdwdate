@@ -1,3 +1,15 @@
+commit 4dc429f5e92d68bad0ce5e251d328cec40fc2792
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue May 26 14:12:47 2015 +0000
+
+    added '/usr/lib/sdwdate/restart_fresh rix,'
+
+commit 2b39a736e00660bd057b489d2cfa8167aa59df02
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 22 21:41:18 2015 +0000
+
+    bumped changelog version
+
 commit 09f8179b5dd511fab6a7944ca539cc1055dc8e34
 Merge: 9fa95d0 8eeca50
 Author: Patrick Schleizer <adrelanos@riseup.net>

@@ -1,3 +1,9 @@
+apparmor-profile-sdwdate (3:2.6-1) unstable; urgency=low
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 03 Jun 2015 14:59:27 +0000
+
 apparmor-profile-sdwdate (3:2.5-1) unstable; urgency=low
 
   * New upstream version (local package).

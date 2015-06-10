@@ -1,3 +1,16 @@
+commit f77622c669c21cf94119406dfef41be30b569e7b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 10 01:34:50 2015 +0000
+
+        /usr/share/rubygems-integration r,
+        /usr/share/rubygems-integration/** r,
+
+commit c774b7801573a2fbceb67c971e1587100f59325b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 14:59:27 2015 +0000
+
+    bumped changelog version
+
 commit efdbdf4b91e7b9d8030cbb0ed4d9fe5dcce03bdb
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue May 26 14:33:49 2015 +0000

@@ -62,7 +62,7 @@
     /usr/lib/timesync/timesync_progress rix,
     /usr/lib/msgcollector/msgcollector rix,
     /usr/lib/msgcollector/msgprogress rix,
-    /usr/lib/i386-linux-gnu/ruby/2.1.0/** mr,
+    /usr/lib/*-linux-gnu/ruby/2.1.0/** mr,
 
     # Whonix 10
     /usr/lib/sdwdate/sclockadj_debug_helper rix,

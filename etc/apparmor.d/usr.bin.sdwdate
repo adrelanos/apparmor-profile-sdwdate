@@ -36,9 +36,6 @@
     @{PROC}/sys/kernel/random/boot_id r,
 
     /run/sdwdate/done rwcx,
-    /run/log/journal/ rw,
-    /run/log/journal/*/ rw,
-    /run/log/journal/*/system.journal rw,
 
     ## TODO: Remove /run/... and add ~/.timesync/*
     /run/timesync/timesync_pid rix,

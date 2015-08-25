@@ -92,6 +92,9 @@
     /run/timesync/timesync_pid r,
     /run/tor/control.authcookie r,
     /run/utmp rk,
+    /run/log/journal/ rw,
+    /run/log/journal/*/ rw,
+    /run/log/journal/*/system.journal rw,
 
     /usr/bin/apt-get.anondist-orig rix,
     /usr/bin/apt-get.anondist rix,

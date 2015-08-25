@@ -44,7 +44,6 @@
     /run/timesync/timesync_pid rix,
     /run/timesync/timesync_done rwix,
     /run/timesync/timesync_running rwcix,
-    /run/log/journal/ rw,
 
     /sys/fs/cgroup/systemd/system.slice/bootclockrandomization.service/ r,
     /sys/fs/cgroup/systemd/system.slice/bootclockrandomization.service/* r,

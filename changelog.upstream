@@ -1,3 +1,25 @@
+commit c6c4193d1faf31fe09f505142a8bafb6c5b1cc81
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 22:08:23 2015 +0000
+
+    moved
+        /run/log/journal/ rw,
+        /run/log/journal/*/ rw,
+        /run/log/journal/*/system.journal rw,
+    from profile to abstractions because its needed by timesync
+
+commit 0bf0a8cbc56f50d3e3675c7763df91199c4b9ec1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 22:04:10 2015 +0000
+
+    removed duplicate
+
+commit c545677e5568315934f416cb18c9d580cfbbdd7f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:07:52 2015 +0000
+
+    bumped changelog version
+
 commit 47d57b887aaa46b5b65109f52b6dc401356579a5
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Aug 24 17:47:17 2015 +0000

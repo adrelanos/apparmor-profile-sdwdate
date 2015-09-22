@@ -95,6 +95,7 @@
     /run/log/journal/ rw,
     /run/log/journal/*/ rw,
     /run/log/journal/*/system.journal rw,
+    /run/log/journal/*/system@*.journal r,
 
     /usr/bin/apt-get.anondist-orig rix,
     /usr/bin/apt-get.anondist rix,

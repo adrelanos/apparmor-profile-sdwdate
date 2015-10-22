@@ -1,3 +1,15 @@
+commit 70bcbd085ae3a5eefe3795982fdf828f4f75e152
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Sep 22 19:38:00 2015 +0000
+
+    /run/log/journal/*/system@*.journal r,
+
+commit e08ea5a404e73bd04e52fbd885c8ac1c276bb230
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 26 23:31:56 2015 +0000
+
+    bumped changelog version
+
 commit c6c4193d1faf31fe09f505142a8bafb6c5b1cc81
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Aug 25 22:08:23 2015 +0000

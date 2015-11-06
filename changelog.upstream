@@ -1,3 +1,15 @@
+commit 8b7a611e63421542f548b3a0339f63ae8e13d06c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Nov 6 13:46:09 2015 +0000
+
+    /usr/bin/qubesdb-cmd rix,
+
+commit 58417ceda04ec1d96dcf7d1212c7505bfc6b52f9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 22 23:12:34 2015 +0000
+
+    bumped changelog version
+
 commit 70bcbd085ae3a5eefe3795982fdf828f4f75e152
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Sep 22 19:38:00 2015 +0000

@@ -165,3 +165,6 @@
     /var/lib/apt/extended_states r,
     /var/lib/apt/lists/ r,
     /var/lib/dpkg/** r,
+
+    ## Qubes specific
+    /usr/bin/qubesdb-cmd rix,
